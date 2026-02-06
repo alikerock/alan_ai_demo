@@ -89,8 +89,7 @@ export default function AlanAPI() {
       <h3>Output</h3>
       <div className="output-box">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{output}</ReactMarkdown>
-      </div>
-      <button onClick={() => setOutput('Button clicked!')}>Click me</button>
+      </div>      
     </div>
   )
 }
