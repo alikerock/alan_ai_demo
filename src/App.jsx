@@ -1,12 +1,12 @@
 import './App.css'
-import AlanAPI from './AlanAPI.jsx'
+import ApiTest from './ApiTest.jsx'
 
 function App() {
 
   return (
     <>
       <h1>Alan AI App</h1>
-      <AlanAPI />
+      <ApiTest />
     </>
   )
 }
